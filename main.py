@@ -8,7 +8,7 @@ import telebot
 from config import TELEGRAM_TOKEN
 from flask import Flask
 import threading
-from notifier import run_bot
+from notifier import send_notification
 import os
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
