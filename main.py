@@ -14,7 +14,7 @@ def daily_weather_update():
     outfit = ai_outfit_suggestion(temp, condition, humidity, wind_speed)
 
     message = (
-        f"🌤️ Good morning, Sam!\n"
+        f"🌤️ Good morning\n"
         f"📍 Location: {CITY}\n"
         f"🌡️ {temp}°C, {condition}\n"
         f"💧 Humidity: {humidity}% | 🌬️ Wind: {wind_speed} km/h\n\n"
