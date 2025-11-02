@@ -1,7 +1,10 @@
-
 requests
+schedule==1.2.2
+pyTelegramBotAPI
+flask
 python-dotenv
 openai
-flask
-python-telegram-bot==20.7
-asyncio
+python-telegram-bot
+
+
+
